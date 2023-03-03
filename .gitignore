@@ -1,6 +1,6 @@
 ## __author__ = 'niraj kumar'
 ## disallow files/folders in same directory as the .gitignore file
 
-./video-segment/src/node_modules
+/video-segment/node_modules
 
 # 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
