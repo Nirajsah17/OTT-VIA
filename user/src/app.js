@@ -17,7 +17,7 @@ app.listen(PORT,()=>{
   console.log(`Example app listening on port ${PORT}`);
 })
 
-app.post("/register", (request, response) => {
+app.post("/user/v1/register", (request, response) => {
   console.log("re",request.body);
   // hash the password
   bcrypt
